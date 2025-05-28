@@ -29,8 +29,6 @@ namespace xadrez_console
                         Console.Clear();
                         Tela.imprimirTabuleiro(partida.Tab, posicoesPossiveis);
 
-
-
                         Console.WriteLine();
                         Console.Write("Destino: ");
                         Posicao destino = Tela.lerPosicaoXadrez().toPosicao();
@@ -47,7 +45,6 @@ namespace xadrez_console
                 Console.Clear();
                 Tela.imprimirPartida(partida);
 
-                //Tela.imprimirTabuleiro(partida.Tab);
             }catch(TabuleiroException e)
             {
                 Console.WriteLine(e.Message);
