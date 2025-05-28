@@ -32,7 +32,7 @@
             {
                 for(int j = 0; j<Tab.Colunas; j++)
                 {
-                    if (mat[1, j])
+                    if (mat[i, j])
                     {
                         return true;
                     }
